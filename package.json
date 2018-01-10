@@ -17,6 +17,11 @@
     "dev": "nodemon --delay 5 dist/index"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "@types/express-graphql": "^0.0.35",
+    "@types/graphql": "^0.11.7",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3",
+    "graphql-tools": "^2.18.0"
   }
 }

@@ -14,14 +14,17 @@
   },
   "scripts": {
     "gulp": "gulp",
-    "dev": "nodemon --delay 5 dist/index"
+    "dev": "NODE_ENV=development nodemon --delay 5 dist/index"
   },
   "dependencies": {
     "@types/express-graphql": "^0.0.35",
     "@types/graphql": "^0.11.7",
+    "@types/sequelize": "^4.27.2",
     "express": "^4.16.2",
     "express-graphql": "^0.6.11",
     "graphql": "^0.12.3",
-    "graphql-tools": "^2.18.0"
+    "graphql-tools": "^2.18.0",
+    "mysql": "^2.15.0",
+    "sequelize": "^4.31.1"
   }
 }
